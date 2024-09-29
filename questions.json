@@ -1,0 +1,209 @@
+{
+  "questions": [
+    {
+      "topic": "Web Development Fundamentals",
+      "question": "Can you explain how the internet works?",
+      "response": "When a URL is entered into a browser, it first performs a DNS lookup to translate the domain into an IP address. The browser then sends an HTTP request to the server at that IP using TCP/IP protocol. The server processes the request and responds with the necessary data, often in HTML format, which the browser then renders into the webpage we see."
+    },
+    {
+      "topic": "Web Development Fundamentals",
+      "question": "What are HTTP methods? Explain them.",
+      "response": "HTTP methods are commands sent by clients to interact with servers. GET retrieves data, POST sends data to a server, PUT updates existing data, DELETE removes data, and PATCH partially updates data. Each method plays a role in CRUD operations (Create, Read, Update, Delete)."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "How does Node.js handle asynchronous operations?",
+      "response": "Node.js uses an event-driven, non-blocking I/O model. It relies on callbacks and promises to handle asynchronous tasks, allowing it to process multiple operations concurrently without waiting for each to complete, thereby increasing efficiency and scalability."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "Explain middleware in the context of Express.js.",
+      "response": "Middleware in Express.js are functions that have access to the request object (req), response object (res), and the next middleware function. They can execute code, modify request and response objects, and end the request-response cycle or call the next middleware."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "What are some best practices for error handling in Node.js?",
+      "response": "In Node.js, use asynchronous error handling with async/await and try/catch blocks, handle all promise rejections, use centralized error handling, validate input data, log errors for debugging, and gracefully shutdown on uncaught exceptions."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "Describe how you would secure a Node.js application.",
+      "response": "To secure a Node.js application, use HTTPS, validate and sanitize input, manage dependencies, implement authentication and authorization, use security headers, handle errors privately, and regularly update Node.js to the latest version."
+    },
+    {
+      "topic": "SQL Databases (Postgres)",
+      "question": "What are the advantages of using SQL databases like Postgres over NoSQL databases?",
+      "response": "SQL databases like Postgres offer structured data storage, complex query capabilities, strong consistency, and ACID compliance. They are ideal for relational data models and applications requiring complex joins and transactions."
+    },
+    {
+      "topic": "SQL Databases (Postgres)",
+      "question": "Can you explain the concept of transactions in SQL databases?",
+      "response": "Transactions in SQL databases are a sequence of operations performed as a single logical unit of work. They follow ACID properties (Atomicity, Consistency, Isolation, Durability) ensuring reliability even in case of errors or failures."
+    },
+    {
+      "topic": "RESTful API Design",
+      "question": "What are the principles of RESTful API design?",
+      "response": "RESTful API design principles include stateless client-server communication, uniform interface, cacheability, layered system, and code on demand. These principles ensure scalability, performance, and maintainability of APIs."
+    },
+    {
+      "topic": "RESTful API Design",
+      "question": "How do you version APIs?",
+      "response": "API versioning can be done via URL path, query parameters, or custom headers. Versioning ensures backward compatibility and smooth transition for clients when API changes are introduced."
+    },
+    {
+      "topic": "Experience with Modern AI Tools",
+      "question": "Can you discuss your experience with any AI/LLM tools or projects?",
+      "response": "I have experience using AI/LLM tools like OpenAI's GPT for natural language processing tasks. These tools have been instrumental in building chatbots, content generation, and data analysis projects, showcasing their versatility in handling complex language-based tasks."
+    },
+    {
+      "topic": "System Design",
+      "question": "Describe a system or project you worked on.",
+      "response": "I worked on a cloud-based e-commerce platform, designed to handle high traffic and secure transactions. The system used microservices architecture for scalability, implemented a robust database design, and integrated third-party services for payment processing and logistics."
+    },
+    {
+      "topic": "System Design",
+      "question": "What improvements would you make to a past project?",
+      "response": "For a past e-commerce project, I'd improve its caching strategy to optimize load times, refactor some monolithic components into microservices for better scalability, and enhance the CI/CD pipeline for more efficient deployment processes."
+    },
+    {
+      "topic": "Problem-solving and Critical Thinking",
+      "question": "Describe a challenging problem you faced in a project and how you solved it.",
+      "response": "In a data synchronization project, I faced challenges with inconsistent data across distributed systems. I solved it by implementing a robust event-driven architecture and a reconciliation mechanism to ensure data consistency and integrity."
+    },
+    {
+      "topic": "Performance Optimization",
+      "question": "How do you approach optimizing the performance of a back-end application?",
+      "response": "To optimize back-end performance, I profile and identify bottlenecks, optimize database queries, implement caching, use asynchronous programming, optimize data structures and algorithms, and scale horizontally if needed."
+    },
+    {
+      "topic": "Soft Skills and Communication",
+      "question": "How do you manage conflicting priorities or tight deadlines in a project?",
+      "response": "I manage conflicting priorities by setting clear objectives, prioritizing tasks based on impact and urgency, communicating effectively with stakeholders, and being flexible to adapt to changing requirements while maintaining focus on deadlines."
+    },
+    {
+      "topic": "Soft Skills and Communication",
+      "question": "Can you give an example of how you've worked collaboratively with a front-end team or other stakeholders?",
+      "response": "In a recent project, I worked closely with the front-end team to develop a seamless user experience. We held regular meetings, shared API documentation, and used agile methodologies to ensure smooth integration and timely feedback."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "Explain the MVC architecture.",
+      "response": "MVC architecture stands for Model-View-Controller. It separates an application into three interconnected components: Model for data handling, View for UI, and Controller for business logic, facilitating organized and modular development."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "What is a JWT and how is it used in authentication?",
+      "response": "JWT (JSON Web Token) is a compact, URL-safe means of representing claims between two parties. In authentication, it's used to securely transfer user credentials and information, typically after login, to authorize user access to resources."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "Describe the differences between SQL and NoSQL databases.",
+      "response": "SQL databases are relational, use structured query language, and are ideal for complex queries and transactional applications. NoSQL databases are non-relational, handle unstructured data, and offer scalability and flexibility for varied data models."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "How do you handle data migrations in a database?",
+      "response": "Data migrations involve careful planning, backup of existing data, testing migration scripts in a staging environment, and ensuring minimal downtime. Tools like Flyway or Liquibase can help automate and manage database migrations."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "What is containerization and how does it benefit development and deployment?",
+      "response": "Containerization involves encapsulating an application and its dependencies into a container. It ensures consistency across environments, facilitates microservices architecture, and simplifies deployment and scaling processes."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "Discuss microservices architecture and its benefits.",
+      "response": "Microservices architecture involves developing an application as a suite of small, independent services. Benefits include scalability, flexibility in using different technologies, easier maintenance, and faster deployment cycles."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "How do you ensure code quality in your projects?",
+      "response": "To ensure code quality, I use version control systems, enforce coding standards, conduct code reviews, write unit and integration tests, and use static code analysis tools to maintain a high standard of coding practices."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "Explain the concept of CI/CD in software development.",
+      "response": "CI/CD stands for Continuous Integration/Continuous Deployment. CI involves regularly integrating code into a shared repository, whereas CD automates the deployment of the code to production. This practice ensures quick and reliable software delivery."
+    },
+    {
+      "topic": "Web Development Fundamentals",
+      "question": "What is the difference between server-side and client-side scripting?",
+      "response": "Server-side scripting involves scripts executed on the server, generating dynamic content before it's sent to the client. Client-side scripting runs in the user's browser, allowing for interactive user interfaces without needing to communicate with the server."
+    },
+    {
+      "topic": "Web Development Fundamentals",
+      "question": "Explain the concept of a Content Delivery Network (CDN) and its benefits.",
+      "response": "A CDN is a network of distributed servers that deliver web content based on the user's geographic location, the origin of the webpage, and a content server. Benefits include faster content delivery, reduced bandwidth costs, improved website load times, and enhanced security against DDoS attacks."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "Describe the event loop in Node.js.",
+      "response": "The event loop in Node.js is a mechanism that allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible. It handles asynchronous callbacks and is fundamental to Node.js's non-blocking nature."
+    },
+    {
+      "topic": "Node.js and Back-end Development",
+      "question": "How do you manage dependencies in a Node.js project?",
+      "response": "Dependencies in a Node.js project are managed using npm (Node Package Manager). Packages are defined in a 'package.json' file, allowing easy installation and version management. npm helps in installing, updating, and removing third-party packages required by the project."
+    },
+    {
+      "topic": "SQL Databases (Postgres)",
+      "question": "Explain indexing in SQL databases and its impact on performance.",
+      "response": "Indexing in SQL databases is a data structure technique used to quickly locate and access the data in a database table. Indexes speed up retrieval of rows and can dramatically improve query performance and efficiency."
+    },
+    {
+      "topic": "SQL Databases (Postgres)",
+      "question": "How would you optimize a slow SQL query?",
+      "response": "To optimize a slow SQL query, analyze the query execution plan, optimize the query structure, use indexes effectively, reduce the number of sub-queries, and optimize joins. Ensuring proper database design and normalization can also enhance performance."
+    },
+    {
+      "topic": "RESTful API Design",
+      "question": "What is the role of HTTP headers in RESTful APIs?",
+      "response": "HTTP headers in RESTful APIs play a crucial role in providing metadata about the request or response, or about the object sent in the message body. They are used for authentication, caching, content type negotiation, and session management."
+    },
+    {
+      "topic": "RESTful API Design",
+      "question": "How do you handle authentication and authorization in RESTful APIs?",
+      "response": "Authentication and authorization in RESTful APIs are typically handled using token-based methods like JWT (JSON Web Tokens), OAuth. These methods provide secure access to API resources by validating the user's identity and permissions."
+    },
+    {
+      "topic": "Experience with Modern AI Tools",
+      "question": "How would you integrate an AI/LLM tool in a back-end application?",
+      "response": "Integrating an AI/LLM tool in a back-end application involves setting up API endpoints to interact with the AI model, managing data input/output, and ensuring proper data processing and response handling. It's important to consider scalability and security in the integration process."
+    },
+    {
+      "topic": "System Design",
+      "question": "Explain the concept of load balancing and its importance in system design.",
+      "response": "Load balancing is the process of distributing network or application traffic across multiple servers to ensure no single server bears too much load. It improves resource utilization, maximizes throughput, reduces response time, and ensures high availability and reliability."
+    },
+    {
+      "topic": "Problem-solving and Critical Thinking",
+      "question": "How do you approach debugging a complex issue in a back-end system?",
+      "response": "Approaching debugging in a back-end system involves replicating the issue, understanding the system's architecture, using systematic testing and logging, isolating the component causing the issue, and incrementally fixing and testing until the problem is resolved."
+    },
+    {
+      "topic": "Performance Optimization",
+      "question": "What strategies do you use for database optimization in high-traffic applications?",
+      "response": "Strategies for database optimization include using efficient indexing, optimizing queries, implementing caching mechanisms, database sharding, fine-tuning database configurations, and regularly monitoring and analyzing database performance metrics."
+    },
+    {
+      "topic": "Soft Skills and Communication",
+      "question": "Describe a situation where you had to explain technical concepts to non-technical stakeholders.",
+      "response": "In a project where we implemented a new database system, I explained the technical details and benefits to non-technical stakeholders by using analogies and simplified terms, focusing on how the changes would improve efficiency and meet business objectives without getting into technical jargon."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "What are micro-frontends and how do they relate to back-end development?",
+      "response": "Micro-frontends are an architectural style where a front-end app is decomposed into individual, semi-independent 'micro' apps working loosely together. They allow for different teams to work independently on different parts of the front-end, which can interact with different back-ends or services."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "How do you approach test-driven development in back-end applications?",
+      "response": "In test-driven development (TDD) for back-end applications, I start by writing automated tests for a new function or feature before writing the actual code. This approach ensures that the development is focused on meeting the requirements and results in cleaner, more reliable code."
+    },
+    {
+      "topic": "Additional Topics",
+      "question": "Explain the concept and benefits of serverless architecture.",
+      "response": "Serverless architecture is a cloud-computing execution model where the cloud provider dynamically manages the allocation of machine resources. Benefits include reduced infrastructure management, cost-effectiveness, scalability, and flexibility in application development."
+    }
+  ]
+}

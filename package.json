@@ -1,0 +1,27 @@
+{
+  "name": "telegram_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node main.ts",
+    "start": "bun run ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/form-data": "^2.5.0",
+    "@types/node-fetch": "^2.6.10",
+    "@types/node-telegram-bot-api": "^0.64.0"
+  }
+}
