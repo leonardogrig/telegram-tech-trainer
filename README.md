@@ -5,6 +5,8 @@
 
 For now, please use this code as a starting point or for educational purposes, and feel free to reach out if you have ideas for improvement or would like to see this developed into a full-fledged application.
 
+Obs.: I've built this project over a year ago, so starting by playing around with different LLM's could be a nice start.
+
 ---
 
 # Telegram Bot Quiz Project
